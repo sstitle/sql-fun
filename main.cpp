@@ -1,6 +1,7 @@
+#include <cstdlib>
 #include <iostream>
 
 int main() {
-    std::cout << "Hello, World from C++!" << std::endl;
-    return 0;
+    std::cout << "Hello, World from C++!\n";
+    return EXIT_SUCCESS;
 }
